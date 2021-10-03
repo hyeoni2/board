@@ -72,7 +72,7 @@ bno > 0
 	select seq_board.nextval from dual
 	</selectKey>
 	
-	insert into tbl_board(bno, title,content,writer)
+	insert into tbl_board(bno, title, content, writer)
 	values(#{bno}, #{title}, #{content}, #{writer})
 </insert>
 
